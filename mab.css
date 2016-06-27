@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 240, 56);
+}
+
+.game {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(126, 246, 107);
+}
+
+.game_name {
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(250, 134, 60);
+}
