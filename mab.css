@@ -51,6 +51,13 @@ input[type="text"] {
   text-align: center;
 }
 
+input[value="?"] {
+  font-size: 2em;
+  font-weight: bolder;
+  color: rgb(247, 240, 56);
+  background-color: rgb(250, 134, 60);
+}
+
 .ape_says {
   font-size: 1.5  em;
   align-content: stretch;
@@ -63,15 +70,27 @@ input[type="text"] {
   width: 80%;
 }
 
-.type_answer {
+.bananas1 {
+  flex: 0;
+  height: 30px;
+  align-self: flex-start;
+}
+
+.text_answer {
   flex: 1;
-  background-color: rgb(95, 184, 81);
+}
+
+.type_answer {
+  display: flex;
+  background-color: rgb(89, 171, 76);
   font-size: 2em;
   padding: 10px;
+  margin-left: inherit;
 }
 
 footer {
   display: flex;
   justify-content: center;
+  font-size: 0.8em;
   background-color: rgb(250, 134, 60);
 }
