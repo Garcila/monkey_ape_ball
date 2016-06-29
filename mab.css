@@ -77,7 +77,7 @@ input[value="?"] {
 }
 
 .text_answer {
-  flex: 1;
+  flex: auto;
 }
 
 .type_answer {
